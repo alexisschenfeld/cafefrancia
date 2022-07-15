@@ -223,39 +223,6 @@ ul {
     text-align: center;
     text-decoration: underline;
 }
-.divs {
-    margin: 50px;
-}
-.seccionform {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 50px;
-}
-.formtextarea {
-    display: flex;
-    flex-direction: column;
-}
-.divn1 {
-    display: flex;
-    flex-direction: column;
-    margin: 30px;
-    color: white;
-    position: relative;
-    right: 25px;
-}
-.divn2 {
-    position: relative;
-    bottom: 30px;
-    margin: 30px;
-}
-.comentarios {
-    height: 230px;
-    width: 290px;
-}
-.email {
-    margin: 10px;
-}
 .imgred:hover {
     -webkit-animation-name: bounce;
     animation-name: bounce;
@@ -269,6 +236,40 @@ ul {
     width: 100px;
     height: 100px;
     margin: 2%;
+}
+.textarea {
+    padding: 10px;
+    margin: 8px;
+    width: 250px;
+    height: 140px;
+    border-radius: 6px;
+    background-color: rgb(255, 210, 85);
+}
+.textarea:hover {
+    transform: scale(1.3);
+    background-color: rgba(247, 156, 38, 0.877);
+}
+.textarea2 {
+    width: 250px;
+    height: 140px;
+}
+.form-control {
+    width: 250px;
+}
+.comentarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: none;
+}
+.btn:hover {
+    background-color: rgb(199, 199, 199);
+    color: black;
 }
 .imgred {
     width: 100px;
