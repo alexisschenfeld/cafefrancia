@@ -1,0 +1,22 @@
+body {
+  width: 90%;
+  padding: 0%; }
+
+main {
+  margin: 3px; }
+
+.logo {
+  width: 180px;
+  height: 150px; }
+  .logo:hover {
+    width: 180px;
+    height: 150px;
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation-name: swing;
+    animation-name: swing;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both; }
