@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 body {
-    width: 90%;
+    width: $width;
     padding: 0%;
+    margin: auto;
+    background: url(./imagenes/fondobody.jpg);
+    background-size: 100%;
 }
-main {
-    margin: 3px;
+
+.gridtitulo {
+    font-family: map-get($tipografia, "fuente-general");
+    font-size: map-get($tipografia, "tamaño-titulo")
 }
