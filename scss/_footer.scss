@@ -1,0 +1,56 @@
+.foot {
+    @include flex(center, wrap);
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(24, 21, 21);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h {
+    color: rgb(104, 47, 0);
+    background-color: beige;
+    border-radius: 15px;
+    border-style: double;
+    padding: 3px;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+.links {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(156, 156, 156);
+    display: flex;     
+    flex-direction: column; 
+    justify-content: space-around;
+    height: 20px;
+    font-variant: small-caps;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+}
+.links2 {
+    width: 20px;
+    height: 20px;
+}
+.map {
+    width: 200px;
+    height: 100px;
+    padding: 10px 10px;
+    background-color: beige;
+    border-radius: 15px;
+    border-style: double;
+    display: flex;
+    justify-content: center;
+}
+.lista {
+    list-style: none;
+    display: flex;
+    margin: 0%;
+    padding: 10px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+ul {
+    margin: 0%;
+    padding: 0%;
+}

@@ -1,0 +1,4 @@
+index,contacto,productos,nuestros clientes, nuestra historia:
+keywords:"cafe, cafefrancia, infusion, infusiones, desayuno, colombia"
+descripcion:"Empresa dedicada al cafe y las infusiones Francia"
+titulo h1 solo en productos y nuestros clientes
