@@ -7,6 +7,7 @@
 }
 .h {
     color: rgb(104, 47, 0);
+    font-size: map-get($tipografia, "tamaño-titulo");
     background-color: beige;
     border-radius: 15px;
     border-style: double;
@@ -16,16 +17,15 @@
     justify-content: center;
 }
 .links {
+    @extend %marginpadding;
+    @include flex(center, wrap); 
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(156, 156, 156);
-    display: flex;     
+    color: rgb(156, 156, 156);  
     flex-direction: column; 
     justify-content: space-around;
     height: 20px;
     font-variant: small-caps;
-    margin: 0%;
-    padding: 0%;
     align-items: center;
 }
 .links2 {
@@ -33,24 +33,19 @@
     height: 20px;
 }
 .map {
+    @extend %footdecoracion;
     width: 200px;
     height: 100px;
     padding: 10px 10px;
-    background-color: beige;
     border-radius: 15px;
     border-style: double;
-    display: flex;
-    justify-content: center;
 }
 .lista {
+    @extend %footdecoracion;
     list-style: none;
-    display: flex;
     margin: 0%;
     padding: 10px;
-    justify-content: center;
-    color: rgb(255, 255, 255);
 }
 ul {
-    margin: 0%;
-    padding: 0%;
+    @extend %marginpadding;
 }
